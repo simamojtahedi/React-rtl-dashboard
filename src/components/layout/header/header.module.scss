@@ -1,0 +1,30 @@
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    h6 {
+      white-space: nowrap;
+      font-weight: 700;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    div {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
