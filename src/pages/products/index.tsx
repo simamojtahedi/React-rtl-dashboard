@@ -9,6 +9,8 @@ import {
   useTheme,
 } from "@mui/material";
 import DashboardLayout from "../../layout";
+import product_1 from "../../assets/images/product-1.jpg";
+import product_2 from "../../assets/images/product-2.png";
 
 const Products = () => {
   const theme = useTheme();
@@ -25,21 +27,19 @@ const Products = () => {
   const productsList = [
     {
       id: 1,
-      name: "برچسب گاوی",
+      name: "فوم شستشوی صورت",
       count: 201,
-      categories: ["برچسب", "برچسب گل"],
+      categories: ["بهداشتی", "فوم شستشو "],
       price: 18000,
-      image:
-        "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      image: product_1,
     },
     {
       id: 2,
-      name: "برچسب خری",
+      name: " ماسک خاک رس ",
       count: 11,
-      categories: ["برچسب", "برچسب گل"],
+      categories: ["بهداشتی", " ماسک صورت "],
       price: 18000,
-      image:
-        "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      image: product_2,
     },
   ];
 
@@ -80,7 +80,13 @@ const Products = () => {
                   </Typography>
                 </TableCell>
                 <TableCell align="center">
-                  <img src={product.image} alt={product.name} width={100} />
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    height={80}
+                    width={80}
+                    style={{ objectFit: "cover", borderRadius: "8px" }}
+                  />
                 </TableCell>
                 <TableCell align="center">
                   <Typography
@@ -122,6 +128,8 @@ const Products = () => {
                         borderRadius: "8px",
                         padding: "3px 8px",
                         whiteSpace: "nowrap",
+                        color: theme.palette.common.black,
+                        background: theme.palette.grey[100],
                       }}
                     >
                       {category}

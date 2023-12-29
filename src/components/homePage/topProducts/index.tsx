@@ -16,7 +16,7 @@ const TopProducts = () => {
 
   const topProductsBody = [
     {
-      title: "برچسب خرسی",
+      title: "فوم شستشوی صورت",
       monthSells: 89,
       totalSells: Number(1189).toLocaleString(),
       status: (
@@ -27,7 +27,7 @@ const TopProducts = () => {
       manage: <TableButton title="مدیریت" />,
     },
     {
-      title: "برچسب گاوی",
+      title: " ماسک خاک رس ",
       monthSells: 19,
       totalSells: Number(189).toLocaleString(),
       status: (

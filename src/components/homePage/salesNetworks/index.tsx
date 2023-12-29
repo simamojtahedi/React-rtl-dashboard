@@ -64,6 +64,12 @@ const SalesNetworks = () => {
         legend: {
           position: "bottom",
           fontWeight: 900,
+          labels: {
+            colors:
+              theme.palette.mode === "dark"
+                ? theme.palette.common.white
+                : theme.palette.common.black,
+          },
           markers: {
             width: 9,
             height: 9,
@@ -88,6 +94,10 @@ const SalesNetworks = () => {
             style: {
               fontSize: isMobile ? "9px" : "12px",
               fontWeight: 700,
+              colors:
+                theme.palette.mode === "dark"
+                  ? theme.palette.common.white
+                  : theme.palette.common.black,
             },
           },
         },
@@ -106,7 +116,7 @@ const SalesNetworks = () => {
         },
       },
     });
-  }, []);
+  }, [theme.palette.mode]);
 
   return (
     <Box
