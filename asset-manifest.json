@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.674d36ed.css",
+    "main.js": "/static/js/main.5c44402d.js",
+    "static/media/logo.png": "/static/media/logo.f985a018175949f590fc.png",
+    "static/media/iran-sans-400.ttf": "/static/media/iran-sans-400.06015825ca2de1909c96.ttf",
+    "static/media/iran-sans-700.ttf": "/static/media/iran-sans-700.758e75056bcba2d488a6.ttf",
+    "static/media/product-2.png": "/static/media/product-2.7d742dd887dcd945fa9b.png",
+    "index.html": "/index.html",
+    "main.674d36ed.css.map": "/static/css/main.674d36ed.css.map",
+    "main.5c44402d.js.map": "/static/js/main.5c44402d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.674d36ed.css",
+    "static/js/main.5c44402d.js"
+  ]
+}
