@@ -56,6 +56,7 @@ const SaleStatistics = () => {
               textColor="#000"
               deactiveProvinceColor="#eee"
               selectedProvinceColor="#519AFF"
+              tooltipTitle="فروش:"
             />
           </Grid>
           <Grid item xs={12} md={5}></Grid>
