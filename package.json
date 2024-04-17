@@ -2,7 +2,7 @@
   "name": "react-dashboard",
   "version": "0.1.0",
   "private": true,
-  "home": "https://simamojtahedi.github.io/react-rtl-dashboard/",
+  "home": "https://simamojtahedi.github.io/React-rtl-dashboard",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
